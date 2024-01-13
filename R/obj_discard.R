@@ -1,6 +1,6 @@
 #' Remove objects in global env.
 #'
-#' Remove the object in the global environment which names are passed in.
+#' Remove the objects in the global environment which names are passed in.
 #'
 #' @param obj_names Character vector of names as the one given in output by obj_exp.
 #'

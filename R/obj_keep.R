@@ -1,10 +1,10 @@
-#' Keeping object in global env.
+#' Keep objects in global env.
 #'
-#' Keep the object in the global environment which names are passed in.
+#' Keep the objects in the global environment which names are passed in.
 #'
-#' @param obj_names Character vector of names of object to keep.
+#' @param obj_names Character vector of names of objects as the one given in output by obj_exp.
 #'
-#' @return Removes object which names have not been passed.
+#' @return Removes objects which names have not been passed.
 #' @export
 #'
 #' @examples

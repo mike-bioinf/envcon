@@ -2,12 +2,16 @@
 % Please edit documentation in R/obj_exp.R
 \name{obj_exp}
 \alias{obj_exp}
-\title{Expand a pattern found or not in glabal env objects.}
+\title{Expand a pattern found or not in global env objects.}
 \usage{
-obj_exp(pattern, invert = FALSE)
+obj_exp(pattern, on_fun = FALSE, out_fun = FALSE, invert = FALSE)
 }
 \arguments{
 \item{pattern}{A regular expression accepted by grep.}
+
+\item{on_fun}{Logical value indicating if the expansion must be done on the function names too. Default FALSE.}
+
+\item{out_fun}{Logical value indicating if the function names must be kept regardless of the pattern. Default FALSE.}
 
 \item{invert}{Logical value indicating if you want to select the objects that not contains the pattern. Default FALSE.}
 }
@@ -15,7 +19,7 @@ obj_exp(pattern, invert = FALSE)
 A character vector.
 }
 \description{
-Expand a pattern found or not in glabal env objects.
+Function used to select the names of the global environment objects based on a pattern accepted by grep. Regular expression can be used.
 }
 \examples{
 
@@ -24,5 +28,5 @@ home2 <- "ugly"
 temperature <- 22
 
 obj_exp(pattern = "home", invert = FALSE)
-
+## Output: "home11" "home2"
 }

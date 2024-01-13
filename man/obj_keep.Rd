@@ -2,18 +2,18 @@
 % Please edit documentation in R/obj_keep.R
 \name{obj_keep}
 \alias{obj_keep}
-\title{Keeping object in global env.}
+\title{Keep objects in global env.}
 \usage{
 obj_keep(obj_names)
 }
 \arguments{
-\item{obj_names}{Character vector of names of object to keep.}
+\item{obj_names}{Character vector of names of objects as the one given in output by obj_exp.}
 }
 \value{
-Removes object which names have not been passed.
+Removes objects which names have not been passed.
 }
 \description{
-Keep the object in the global environment which names are passed in.
+Keep the objects in the global environment which names are passed in.
 }
 \examples{
 
