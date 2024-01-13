@@ -1,0 +1,10 @@
+Package: envcon
+Title: Helps to control the global environmental objects
+Version: 0.0.0.9000
+Authors@R: c(person("Michele", "Avagliano", email = "avaglianomichele@outlook.it", role = c("aut", "cre")))
+Maintainer: Michele Avagliano <avaglianomichele@outlook.it>
+Description: The package aims to give users control over the environmental variables.
+License: MIT 
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
